@@ -32,7 +32,7 @@ now in fact we are treated as a root.
 
 # set-up enviroment
 
-###sudo usermod -aG <user> <group> ex. sudo suermod -aG BillyGLW docker)
+### sudo usermod -aG <user> <group> ex. sudo suermod -aG BillyGLW docker)
 
 ### getent group log:
 
