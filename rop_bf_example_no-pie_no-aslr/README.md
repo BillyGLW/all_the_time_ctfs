@@ -9,11 +9,11 @@
 
 ### ROPgadget
 
-pip install ROPGadget
+#### pip install ROPGadget
 
 
 ### Makefile
-
+```
 all:
 	gcc exploit.c -o bf -no-pie -ggdb -fno-stack-protector
 
@@ -25,3 +25,4 @@ input:
 
 clean:
 	rm -rf bf
+```
