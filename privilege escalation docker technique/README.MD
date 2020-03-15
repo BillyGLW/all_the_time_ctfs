@@ -1,4 +1,4 @@
-assume that we have user that has not any permissions in "etc/sudoers" file,
+assume that we have user that has not got any permissions in "etc/sudoers" file,
 but suddenly have access for docker group (set-up: sudo usermod -aG <user> <group> ex. sudo suermod -aG BillyGLW docker).
 
 # escalation
