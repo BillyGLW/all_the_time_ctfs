@@ -13,8 +13,8 @@
 
 
 ### Makefile
-
-`all:
+'''
+all:
 	gcc exploit.c -o bf -no-pie -ggdb -fno-stack-protector
 
 
@@ -24,4 +24,5 @@ input:
 .PHONY: clean input
 
 clean:
-	rm -rf bf`
+	rm -rf bf
+'''
