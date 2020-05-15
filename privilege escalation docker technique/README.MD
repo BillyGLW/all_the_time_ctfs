@@ -1,7 +1,7 @@
-assume that we have user that has not any permissions in "etc/sudoers" file,
-but suddenly have access for docker group (set-up: sudo usermod -aG <user> <group> ex. sudo suermod -aG BillyGLW docker).
+Assume that we have user that has not got any permissions in "etc/sudoers" file,
+but suddenly have access for docker group ```(set-up: sudo usermod -aG <user> <group> ex. sudo suermod -aG BillyGLW docker).```
 
-# escalation
+# Escalation
 
 mkdir pesc
 cd pesc
@@ -32,7 +32,7 @@ now in fact we are treated as a root.
 
 # set-up enviroment
 
-###sudo usermod -aG <user> <group> ex. sudo suermod -aG BillyGLW docker)
+### sudo usermod -aG <user> <group> ex. sudo suermod -aG BillyGLW docker
 
 ### getent group log:
 
