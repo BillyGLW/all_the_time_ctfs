@@ -5,6 +5,8 @@ I wanted to create python script to mess around the system, but payload size nee
 i cant use quote "", (cuz of payload size=301!); to avoid that i will be using only for and arrays containing int representations of strings (we dont need use quotes anymore)
 then echo -e to /tmp/b file.
 
+![script execution](https://i.imgur.com/XULqP7l.png)
+
 ### Executing file /tmp/b
 I had to raise priviliegies by using os.chmod("tmp/b", 448) in base command (it worked!)
 
